@@ -8,7 +8,7 @@ import java.util.Map;
 
 /**
  * @ClassName GetController
- * @Description
+ * @Description get请求
  * @Author
  * @Date 2019/3/9  15:20
  */

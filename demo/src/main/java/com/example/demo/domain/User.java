@@ -29,6 +29,9 @@ public class User {
     @JsonFormat(pattern="yyyy-MM-dd hh:mm:ss",locale="zh",timezone="GMT+8")
     Date time;
 
+    public User () {
+    }
+
     public User (String usrId, String pwd, Integer age, String phone, Date time) {
         this.usrId = usrId;
         this.pwd = pwd;
